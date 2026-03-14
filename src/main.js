@@ -63,11 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.querySelector('.navbar');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-      navbar.style.boxShadow = '0 4px 6px -1px rgba(0,0,0,0.1)';
-      navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+      navbar.style.boxShadow = '0 4px 6px -1px rgba(0,0,0,0.5)';
+      navbar.style.background = 'rgba(17, 24, 39, 0.95)';
     } else {
       navbar.style.boxShadow = 'none';
-      navbar.style.background = 'rgba(248, 250, 252, 0.85)';
+      navbar.style.background = 'rgba(3, 7, 18, 0.8)';
     }
   });
 });
